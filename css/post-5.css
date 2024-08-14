@@ -1,0 +1,159 @@
+.elementor-kit-5 {
+    --e-global-color-primary: #2130b4;
+    --e-global-color-secondary: #F1C506;
+    --e-global-color-text: #1E1E1E;
+    --e-global-color-accent: #1E1E1E;
+    --e-global-color-0888d3d: #FFFFFF;
+    --e-global-color-3a15d92: #00E676;
+    --e-global-color-94e1400: #606060;
+    --e-global-typography-primary-font-family: "Roboto";
+    --e-global-typography-primary-font-size: 42px;
+    --e-global-typography-primary-font-weight: 800;
+    --e-global-typography-primary-text-transform: none;
+    --e-global-typography-secondary-font-family: "Roboto";
+    --e-global-typography-secondary-font-size: 28px;
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-secondary-text-transform: none;
+    --e-global-typography-text-font-family: "Roboto";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-text-text-transform: none;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+    --e-global-typography-accent-text-transform: none;
+    font-family: "Roboto";
+    text-transform: none;
+    background-color: #FFFFFF;
+}
+
+.elementor-kit-5 a {
+    font-family: "Roboto";
+    text-transform: none;
+}
+
+.elementor-kit-5 h1 {
+    font-family: "Roboto";
+    font-size: 42px;
+    text-transform: none;
+}
+
+.elementor-kit-5 h2 {
+    font-family: "Roboto";
+    font-size: 32px;
+    text-transform: none;
+}
+
+.elementor-kit-5 h3 {
+    font-family: "Roboto";
+    font-size: 26px;
+    text-transform: none;
+}
+
+.elementor-kit-5 h4 {
+    font-family: "Roboto";
+    font-size: 22px;
+    text-transform: none;
+}
+
+.elementor-kit-5 h5 {
+    font-family: "Roboto";
+    text-transform: none;
+}
+
+.elementor-kit-5 h6 {
+    font-family: "Roboto";
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1140px;
+}
+
+.e-con {
+    --container-max-width: 1140px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-block-end: 20px;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+}
+
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+.elementor-kit-5 e-page-transition {
+    background-color: #FFBC7D;
+}
+
+@media(max-width:1024px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+
+    .e-con {
+        --container-max-width: 1024px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+
+    .e-con {
+        --container-max-width: 767px;
+    }
+}
+
+/* Start custom CSS */
+.card_plan_icon ul {
+    display: flex;
+}
+
+.card_plan_icon li {
+    display: block !important;
+    font-weight: 400 !important;
+}
+
+.card_plan_icon .elementor-icon-list-text {
+    line-height: 22px;
+}
+
+.card_plan_icon .elementor-icon-list-icon {
+    display: block;
+}
+
+.qlwapp-toggle {
+    background: #00E676;
+    border-radius: 50%;
+    transform: scale(1);
+    animation: pulse-whats 2s infinite !important;
+}
+
+@keyframes pulse-whats {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgb(0 230 118 / 53%);
+
+        transform: scale(1.05);
+        box-shadow: 0 0 0 0 rgb(0 230 118 / 63%);
+
+        transform: scale(1.1);
+        box-shadow: 0 0 0 0 rgb(0 230 118 / 73%);
+    }
+
+    70% {
+        transform: scale(1.2);
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+/* End custom CSS */
